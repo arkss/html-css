@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>선형 그라데이션 사용하기</title>
+    <style>
+        div{
+            width: 500px;
+            height: 300px;
+            position: relative;
+        }
+        .grad-position{
+            background: linear-gradient(to right bottom, blue, white); 
+        }
+
+        .grad-degree{
+            background: linear-gradient(45deg, #ff0000, #ffffff); 
+            /* 위 쪽을 0도로 생각하고 시계 방향으로 각도가 증가 */
+        }
+    </style>
+</head>
+<body>
+    <div class="grad-position"></div>
+    <div class="grad-degree"></div>
+    
+</body>
+</html>
