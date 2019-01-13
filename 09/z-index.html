@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index 사용하기</title>
+    <style>
+        div{
+            width:300px;
+            height: 300px;
+            position: absolute;
+        }
+        #b1{
+            top: 50px;
+            left: 50px;
+            background: red;
+            z-index: 1;
+        }
+        #b2{
+            top: 100px;
+            left: 100px;
+            background: blue;
+            
+        }
+        #b3{
+            top: 75px;
+            left: 30px;
+            background:yellow;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="b1">1</div>
+    <div class="box" id="b2">2</div>
+    <div class="box" id="b3">3</div>
+</body>
+</html>

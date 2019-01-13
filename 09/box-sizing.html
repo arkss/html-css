@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>box-sizing 사용하기</title>
+    <style>
+        div{
+            width: 300px;
+            height: 150px;
+            margin: 10px;
+            padding: 30px;
+            border: 2px solid red;
+        }
+        .box1{
+            box-sizing: content-box;
+            /* 안의 내용물이 들어가는 부분이 width 와 height */
+        }
+        .box2{
+            box-sizing: border-box;
+            /* margin padding 까지 포함해서 width 와 height */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>
