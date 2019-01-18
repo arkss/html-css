@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CSS 선택자</title>  
+  <title>메뉴바 꾸미기</title>  
   <style>
     .main-menu {
       margin:50px auto;
@@ -22,11 +22,11 @@
     }
 
     .main-menu ul li a{
-      text-decoration: none;
+      text-decoration-line: none;
       color: black;
     }
 
-    .main-menu a:active{
+    .main-menu ul li a:active{
       color : blue;
     }
 
@@ -34,12 +34,12 @@
   </style>
 </head>
 <body>
-  <nav class="main-menu">
+  <div class="main-menu">
     <ul>
       <li><a href="#">메뉴1</a></li>
       <li><a href="#">메뉴2</a></li>
       <li><a href="#">메뉴3</a></li>
     </ul>
-   </nav>
+  </div>
 </body>
 </html>
