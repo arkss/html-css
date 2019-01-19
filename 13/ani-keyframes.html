@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>키프레임 사용하기</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background: blue;
+            animation-name: change-bg;
+            animation-duration: 3s;
+        }
+
+        @keyframes change-bg {
+            from {
+                background: blue;
+                border: 1px solid black;
+            }
+            to {
+                background: skyblue;
+                border: 1px solid blue;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

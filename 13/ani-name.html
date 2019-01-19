@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>에니메이션 이름 지정하기</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            float: left;
+            margin: 50px;
+        }
+        .box1{
+            background: green;
+            border: 1px solid black;
+            animation-name: shape;
+            animation-duration: 3s;
+        }
+        .box2{
+            background: purple;
+            border: 1px solid black;
+            animation-name: rotate;
+            animation-duration: 3s;
+        }
+
+        @keyframes shape{
+            from {
+
+            }
+            to{
+                border-radius: 50%;
+            }
+        }
+
+        @keyframes rotate{
+            from {
+
+            }
+            to {
+                transform: rotate(45deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+</body>
+</html>
